@@ -1,0 +1,37 @@
+.hero *{
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background:#333;
+    opacity: 0.8;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    /* font-size: 0px; */
+}
+
+.logo{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px orange ;
+}
+span{
+    font-size: 40px;
+    color: #ff6f3c;
+    font-family: 'Satisfy', cursive;
+}
