@@ -3,7 +3,9 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.hero *{
+    z-index: 10;
+}
 .hero{
     background-image: url('/Friends-Restraunt/Images/showcase.jpg');
     background-repeat: no-repeat;
@@ -57,4 +59,14 @@
     background: rgba(0,0,0,0.6);
 }
 
+.para{
+    background-color: skyblue;
+}
+.para p{
+    padding: 20px;
+    line-height: 2rem;
+}
+.social{
+    cursor: pointer;
+}
 

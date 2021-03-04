@@ -1,6 +1,4 @@
-.hero *{
-    z-index: 10;
-}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -9,6 +7,7 @@
     align-items: center;
     background:#333;
     opacity: 0.8;
+    
 }
 
 .nav ul{
