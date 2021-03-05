@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: Auto;
+    border: solid red;
+    background-image: url(/Friends-Restraunt/Images/aboutheader.jpeg);
+    
+}
+.about{
+    height: 85vh;
+    border: solid beige;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(/Friends-Restraunt/Images/35.jpg); */
+}
+#abt-head{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2vh;
+}
+.description{
+    border: solid brown;
+    width: 75%;
+    height: 70%;
+}
+.teamcontainer{
+    height: 90vh;
+    border: solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    border: solid gray;
+    width: 75%;
+    height: 80%;
+}
+.mgmt{
+    height: auto;
+    border: solid pink;    
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cir{
+    border: solid black;
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    margin-left: 30px;
+    float: left;
+    box-shadow: black 20px 20px 20px;
+}
