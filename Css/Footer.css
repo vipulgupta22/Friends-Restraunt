@@ -2,3 +2,124 @@
     margin: 0;
     padding: 0;
 }
+#footerbox{
+    background: url("../Images/photo-1463797221720-6b07e6426c24.jfif");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.logo{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px orange ;
+}
+.logo h1{
+    text-align: center;
+}
+#logo111{
+    font-size: 40px;
+    color: #ff6f3c;
+    font-family: 'Satisfy', cursive;
+}
+#box2foot{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+#box111{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box111 i{
+    color: white;
+}
+#box111 i:hover{
+    color: #ff6f3c;
+}
+#box2foot h2{
+    font-size: 40px;
+    padding-top: 8px;
+    font-family: 'Comic Neue', cursive;
+    padding-bottom: 15px;
+}
+#footsocialicon i{
+    color: #ff6f3c;
+    padding:6px;
+    font-size: 45px;
+}
+#footsocialicon a i:hover{
+    color: white;
+    background-color: #ff6f3c;
+}
+#footsocialicon{
+    padding-bottom: 10px;
+}
+#box111 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#timetable{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#timetable h3{
+    font-weight: 1000;
+    padding-bottom: 10px;
+}
+#timefoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    
+  }
+  .footer-content p{
+    border-radius: 25px;
+    text-align:center;
+    color:#ff6f3c;
+    font-size:25px;
+    margin:10px;
+    position:relative;
+  }
+  .footer-content p span{
+      color: white;
+  }
+  .footer-content p::before{
+    content: '';
+    width:0;
+    height:2px;
+    display:block;
+    position:absolute;
+    left:0;
+    background: white;
+    top:-10px;
+    transition : all .3s;
+  }
+  
+  .footer-content p::after{
+   content: '';
+   width:0;
+   height:2px;
+   display:block;
+   position:absolute;
+   right:0;
+   background: white;
+   bottom:-10px;
+   transition : all .3s;
+  }
+  .footer-content p:hover::after,
+  .footer-content p:hover::before{
+    width:100%;
+  }
