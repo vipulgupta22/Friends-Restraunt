@@ -35,8 +35,16 @@
     font-size: 30px;
     text-shadow: 1px 1px 1px orange ;
 }
-span{
+#lo{
     font-size: 40px;
     color: #ff6f3c;
     font-family: 'Satisfy', cursive;
+}
+.logo a{
+    text-decoration: none;
+}
+#and{
+    
+    font-size: 40px;
+    color: white;
 }
