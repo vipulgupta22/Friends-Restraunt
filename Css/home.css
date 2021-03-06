@@ -77,6 +77,8 @@
 .social a{
     color: white;
     margin-bottom: 3px;
+    
+    border-radius: 6px;
 }
 .social a i{
     margin:8px;
