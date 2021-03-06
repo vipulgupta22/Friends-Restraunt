@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#headerbox{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../Images/pexels-photo-139309.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Nav */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* background:#333; */
+    background:transparent;
+    opacity: 0.8;
+    position:fixed;
+    width: 100%;
+    /* border:2px solid red ; */   
+}
+.navbar *{
+    z-index: 1;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    /* font-size: 0px; */
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px orange ;
+}
+#lo{
+    font-size: 40px;
+    color: #ff6f3c;
+    font-family: 'Satisfy', cursive;
+}
+.logo a{
+    text-decoration: none;
+}
+#and{
+    
+    font-size: 40px;
+    color: white;
+}
+/* slidebanner */
+#bannermenu{
+    padding-top: 100px;
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box1{
+    width: 80%;
+    height: 540px;
+}
+.myslides{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: orangered;
+    display: none;
+}
+.myslides .transparent{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+.myslides h1{
+    font-size: 80px;
+}
+.myslides h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.myslides a{
+    background-color: #ff6f3c;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+    outline: none;
+    text-decoration: none;
+}
+.myslides a:hover{
+    color: #ff6f3c;
+    background-color: white;
+    border: 2px solid #ff6f3c;
+}
