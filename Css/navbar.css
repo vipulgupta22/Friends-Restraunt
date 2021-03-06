@@ -10,9 +10,12 @@
     opacity: 0.8;
     position:fixed;
     width: 100%;
-    background: transparent;
+    /* background: transparent; */
     /* border:2px solid red ; */   
 }
+.navbar.top{
+    background:transparent;
+}}
 .navbar *{
     z-index: 1;
 }
