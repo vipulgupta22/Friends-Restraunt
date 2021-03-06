@@ -5,17 +5,16 @@
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    background:#333;
-    /* background:transparent; */
+    /* background:#333; */
+    background:transparent;
     opacity: 0.8;
     position:fixed;
     width: 100%;
-    /* background: transparent; */
     /* border:2px solid red ; */   
 }
-.navbar.top{
+/* .navbar.top{
     background:transparent;
-}}
+} */
 .navbar *{
     z-index: 1;
 }
