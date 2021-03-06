@@ -8,10 +8,15 @@
     <title>About-us</title>
     <link rel="stylesheet" href="../Css/navbar.css">
     <link rel="stylesheet" href="../Css/About-us.css">
+    <link rel="stylesheet" href="/Friends-Restraunt/Css/Footer.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a740978d7b.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="header">
-        
     <nav class="navbar">
         <div class="nav">
             <ul>
@@ -31,29 +36,130 @@
     </nav>
 <br>
 <br>
-    <h1 id="abt-head" >About-Us</h1>
+<br>
+    <h1 id="abt-head" >About-Us</h1></div>
     <div class="about">
-        <div class="description"></div>
-    </div>
+          <div class="abt-cont">
+              <div class="cont">
+            <div class="mySlides">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos nemo dolor sint nobis, est aut minima deserunt quis hic!</p>
+           
+            </div>
+            
+            <div class="mySlides">
+              <p>loWe can also create a separate file to hold the code of JavaScript with the (.js) extension and later incorporate/include it into our HTML document using the src attribute of the  tag. It becomes very helpful if we want to use the same code in multiple HTML documents. It also saves us from the task of writing the same code over and over again and makes it easier to maintain web pages.</p>
+             
+            </div>
+            
+            <div class="mySlides"><p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+                
+                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
+            </div>
+        </div>
+        </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
     
-</div>
+    </div>
+
     
 <h1 id="abt-head" >Our Team</h1>
     <div class="teamcontainer">
         <div class="team">
+            <div class="member" id="m1">1</div>
+            <div class="member"id="m2">2</div>
+            <div class="member" id="m3">3</div>
+            <div class="member" id="m4">4</div>
         </div>
+        <div class="team">
+            <div class="member" id="m5">5</div>
+            <div class="member" id="m6">6</div>
+            <div class="member" id="m7">7</div>
+            <div class="member" id="m8">8</div>
+        </div>
+        <div class="team">
+            <div class="member" id="m9">9</div>
+            <div class="member" id="m10">10</div>
+            <div class="member"id="m11">11</div>
+            <div class="member" id="m12">12</div>
+        </div>
+        <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusteam(-1)">&#10094;</a>
+  <a class="next" onclick="plusteam(1)">&#10095;</a>
     </div>
     <h1 id="abt-head" >Management</h1>
-   
+    <div class="box">
     <div class="mgmt">
-        <div class="cir">
+        <div class="cir" id="c1">
         </div>
-        <div class="cir">
+        <div class="cir" id="c2">
         </div>
-        <div class="cir">
+        <div class="cir" id="c3">
         </div>
-        <div class="cir">
+        <div class="cir" id="c4">
         </div>
     </div>
+</div>
+
+    
+    <footer>
+        <div id="footerbox">
+            <div class="logo">
+                <h1><span id="logo111">Friends</span> & <span id="logo111">Family</span></h1>
+            </div>
+            <div id="box2foot">
+                <div id="box111">
+                    <a href="../Html/home.html"><i class="fas fa-coffee fa-4x"></i></a>
+                    <h2>Follow</h2>
+                    <div id="footsocialicon">
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                    </div>
+                    <h2>Address</h2>
+                    <p>123 Krishna Nagar</p>
+                    <p>Delhi, 121102</p>
+                </div>
+                <div id="box222">
+                    <h2>Opening Hours</h2>
+                    <div id="timetable">
+                        <div id="dayfoot">
+                            <h3><Span>Monday</Span></h3>
+                            <h3><Span>Tuesday</Span></h3>
+                            <h3><Span>Wednesday</Span></h3>
+                            <h3><Span>Thrusday</Span></h3>
+                            <h3><Span>Friday</Span></h3>
+                            <h3><Span>Saturday</Span></h3>
+                            <h3><Span>Sunday</Span></h3>
+                        </div>
+                        <div id="timefoot">
+                            <h3>9:00 - 23:00</h3>
+                            <h3>9:00 - 23:00</h3>
+                            <h3>9:00 - 23:00</h3>
+                            <h3>9:00 - 23:00</h3>
+                            <h3>9:00 - 23:00</h3>
+                            <h3>7:00 - 24:00</h3>
+                            <h3>10:00 - 24:00</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="footer-content">
+                <p>
+                  CopyRight Reserved by <span>friends & family</span> <i class="fas fa-copyright"></i> 2021
+                </p>
+              </section>
+        </div>
+    </footer>
+    <script src="/Friends-Restraunt/Js/About-us.js"></script>
 </body>
 </html>

@@ -4,16 +4,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .header{
-    height: Auto;
     border: solid red;
+    height: 400px;
     background-image: url(/Friends-Restraunt/Images/aboutheader.jpeg);
-    
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;  
 }
 .about{
-    height: 85vh;
+    height: 75vh;
     border: solid beige;
     
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-image: url(/Friends-Restraunt/Images/35.jpg); */
@@ -23,23 +26,71 @@
     text-align: center;
     font-size: 50px;
     margin-bottom: 2vh;
-}
-.description{
-    border: solid brown;
-    width: 75%;
-    height: 70%;
-}
+    
+    font-family: 'Comic Neue', cursive;}
+
+    .abt-cont{
+        height: 85%;
+        margin: auto;
+        width: 85%;
+        /* background-color: coral; */
+        opacity: 0.4;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border: 1px solid gray;
+        box-shadow: 10px 10px 10px gray ;
+    }
+    .cont{
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
 .teamcontainer{
-    height: 90vh;
+    height: 40vh;
     border: solid yellowgreen;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.team{
-    border: solid gray;
-    width: 75%;
-    height: 80%;
+.member{
+    border: solid yellow;
+    border-radius: 20px;
+    height: 98%;
+    width: 20%;
+    box-shadow: 8px 8px 8px rgb(190, 71, 31);
+}
+#m1{
+    background-image: url(../Images/chef-1.jfif);
+    background-size: cover;
+}
+#m2{
+    background-image: url(../Images/chef-2.jpg);
+    background-size: cover;
+}
+#m3{
+    background-image: url(../Images/chef-1-anime.jpg);
+    background-size: cover;
+}
+#m4{
+    background-image: url(../Images/chef-3.gif);
+    background-size: cover;
+}
+#m5{
+    background-image: url(../Images/chef-6.jfif);
+    background-size: cover;
+}
+#m6{
+    background-image: url(../Images/chef-6.jfif);
+    background-size: cover;
+}
+#m7{
+    background-image: url(../Images/chef-7.jfif);
+    background-size: cover;
+}
+#m8{
+    background-image: url(../Images/chef-7.jfif);
+    background-size: cover;
 }
 .mgmt{
     height: auto;
@@ -49,11 +100,125 @@
     align-items: center; 
 }
 .cir{
-    border: solid black;
+    /* border: solid black; */
     height: 290px;
     width: 290px;
     border-radius: 50%;
     margin-left: 30px;
     float: left;
-    box-shadow: black 20px 20px 20px;
+    box-shadow:  8px 8px 8px rgb(190, 71, 31);
 }
+#c1{
+    background-image: url(../Images/satyam.jpg);
+    background-size: cover;
+}
+#c2{
+    background-image: url(../Images/vipul.jpg);
+    background-size: cover;
+}
+#c3{
+    background-image: url(../Images/ups.jpg);
+    background-size: cover;
+}
+#c4{
+    background-image: url(../Images/arvind.jpeg);
+    background-size: cover;
+}
+.box{
+    height: 60vh;
+    border: solid violet;     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+/*  */
+/*  */slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:lightgray;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* for workers */
+.teamcontainer {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .team {
+      
+    /* box-shadow: 20px 20px 20px gray ; */
+    border: solid gray;
+    width: 85%;
+    height: 80%;
+    display: none;
+  }
+.prev, .next {
+    background-color:whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev{
+      left: 0;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
