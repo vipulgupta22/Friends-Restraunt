@@ -2,56 +2,71 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-}
+    }
 .header{
-    border: solid red;
-    height: 400px;
-    background-image: url(/Friends-Restraunt/Images/aboutheader.jpeg);
+    /* border: solid red; */
+    height: 70vh;
+    background-image: url(../Images/about-background.webp);
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;  
 }
 .about{
-    height: 75vh;
-    border: solid beige;
+    height: 65vh;
+    /* border: solid beige; */
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-image: url(/Friends-Restraunt/Images/35.jpg); */
-}
+    background-image: url(../Images/background-1.jfif);
+    }
 #abt-head{
-    margin-top: 5vh;
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 2vh;
+  background-image: url(../Images/heading-about.jfif);
+  background-size: cover;  
+  font-family: 'Comic Neue', cursive;
+}
+#abt-head1{
+    margin-top: 8vh;
     text-align: center;
     font-size: 50px;
     margin-bottom: 2vh;
-    
-    font-family: 'Comic Neue', cursive;}
+  
+    font-family: 'Comic Neue', cursive;
+
+} 
 
     .abt-cont{
         height: 85%;
         margin: auto;
         width: 85%;
-        /* background-color: coral; */
-        opacity: 0.4;
+        opacity: 0.9;
         display: flex;
         justify-content: center;
         align-items:center;
         border: 1px solid gray;
         box-shadow: 10px 10px 10px gray ;
+        background-color: white;
+        
     }
     .cont{
         width: 70%;
         height: auto;
         margin: auto;
+        background-color: white;
     }
 .teamcontainer{
     height: 40vh;
-    border: solid yellowgreen;
+    /* border: solid yellowgreen; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../Images/background-1.jfif);
+    
 }
 .member{
     border: solid yellow;
@@ -92,9 +107,13 @@
     background-image: url(../Images/chef-7.jfif);
     background-size: cover;
 }
+.box{
+    background-image: url(../Images/background-1.jfif);
+
+}
 .mgmt{
     height: auto;
-    border: solid pink;    
+    /* border: solid pink;     */
      display: flex;
     justify-content: center;
     align-items: center; 
@@ -107,7 +126,44 @@
     margin-left: 30px;
     float: left;
     box-shadow:  8px 8px 8px rgb(190, 71, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.name h1{
+    font-size: 30px;
+    font-style:italic;
+    font-family:'Comic Neue';
+    color: white;
+    background-color:  rgb(190, 71, 31);
+    border-radius: 8px;
+    text-align: center;
+}
+#social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#socialicon i{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color:  rgb(190, 71, 31);
+    border-radius: 8px;
+    
+}
+.info{
+    opacity: 0;
+    margin-top: 50%;
+}
+.cir:hover .info{
+    opacity: 1;
+}
+.cir:hover{
+    opacity: 0.7;
+}
+
 #c1{
     background-image: url(../Images/satyam.jpg);
     background-size: cover;
@@ -124,17 +180,21 @@
     background-image: url(../Images/arvind.jpeg);
     background-size: cover;
 }
+
+
+
 .box{
     height: 60vh;
-    border: solid violet;     
+    /* border: solid violet;      */
     display: flex;
     justify-content: center;
     align-items: center; 
 
 }
 /*  */
-/*  */slideshow-container {
-  /* max-width: 1000px; */
+/*  */
+
+slideshow-container {
   position: relative;
   margin: auto;
 }
@@ -151,14 +211,14 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color:gray;
+  background-color:lightgray;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color:lightgray;
+  background-color:gray;
 }
 
 /* Fading animation */
@@ -188,8 +248,7 @@
   /* Hide the images by default */
   .team {
       
-    /* box-shadow: 20px 20px 20px gray ; */
-    border: solid gray;
+    /* border: solid gray; */
     width: 85%;
     height: 80%;
     display: none;
@@ -202,7 +261,7 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: rgb(99, 96, 96);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
