@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif ;
 }
-section
+.section
 {
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ section
     min-height: 100vh;
     background: #095a55;
 }  
-section::before
+.section::before
 {
     content: '';
     position: absolute;
