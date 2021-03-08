@@ -5,10 +5,7 @@
 #headerbox{
     width: 100%;
     height: 85vh;
-    background-image:url("../Images/photo-1526324151602-9f7cb55aa8e7.jfif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:coral;
 }
 /* Nav */
 .navbar{
@@ -25,7 +22,7 @@
     /* border:2px solid red ; */   
 }
 .navbar *{
-    z-index: 1;
+    z-index: 999;
 }
 .nav ul{
     display: flex;
@@ -60,7 +57,7 @@
 }
 /* slidebanner */
 #bannermenu{
-    padding-top: 100px;
+    padding-top: 120px;
     width:100%;
     height:auto;
     display: flex;
@@ -100,7 +97,6 @@
     font-size: 40px;
     text-align: center;
     padding: 10px;
-    padding-bottom: 15px;
 }
 .myslides a{
     background-color: crimson;
@@ -238,7 +234,28 @@ h1{
               perspective: inherit;
       z-index: 2;
   }
-  
+  .back .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .back .inner a{
+    color:white;
+    background-color: #ff6f3c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-decoration:none;
+    font-size: 30px;
+
+  }
+  .back .inner a:hover{
+    color: #ff6f3c;
+    background-color: white;
+    border: 2px solid #ff6f3c;
+    transition: all 0.5s ease;
+  }
   .container .back{
       -webkit-transform: rotateY(180deg);
               transform: rotateY(180deg);
@@ -338,7 +355,7 @@ h1{
     height: 10px;
   }
   .slides::-webkit-scrollbar-thumb {
-    background: black;
+    /* background: black; */
     border-radius: 10px;
   }
   .slides::-webkit-scrollbar-track {
@@ -405,4 +422,9 @@ h1{
   }
   .slider > a:focus {
     background: #000;
+  }
+  .container .front{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
