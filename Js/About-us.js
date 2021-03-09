@@ -26,25 +26,25 @@ function showSlides(n) {
  
 }
 
-
-var slideIndex1 = 0;
-showSlides1();
-function showSlides1() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex1++;
-  if (slideIndex1 > slides.length) {slideIndex1 = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex1-1].style.display = "block";  
-  dots[slideIndex1-1].className += " active";
-  setTimeout(showSlides1, 2000); // Change image every 2 seconds
-}
+//for timer in about us content
+// var slideIndex1 = 0;
+// showSlides1();
+// function showSlides1() {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";  
+//   }
+//   slideIndex1++;
+//   if (slideIndex1 > slides.length) {slideIndex1 = 1}    
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex1-1].style.display = "block";  
+//   dots[slideIndex1-1].className += " active";
+//   setTimeout(showSlides1, 2000); // Change image every 2 seconds
+// }
 
 
 // js for team slider
@@ -82,6 +82,7 @@ function showSlider2() {
   slideIndex1++;
   if (slideIndex1 > slides.length) {slideIndex1 = 1}    
 
-  slides[slideIndex1-1].style= "display: flex;flex-direction: row;    justify-content: space-evenly;    align-items: center;";;  
-  setTimeout(showSlider2, 3000); // Change image every 2 seconds
+  slides[slideIndex1-1].style= "display: flex;flex-direction: row;    justify-content: space-evenly;    align-items: center;";
+  setTimeout(showSlider2, 5000); // Change image every 2 seconds
 }
+
