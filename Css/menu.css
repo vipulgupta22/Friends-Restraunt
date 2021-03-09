@@ -4,7 +4,7 @@
 }
 #headerbox{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background-color:coral;
 }
 /* Nav */
@@ -65,8 +65,8 @@
     justify-content: center;
 }
 #box1{
-    width: 60%;
-    height:400px;
+    width: 80%;
+    height: 70vh;
 }
 .myslides{
     width: 100%;
