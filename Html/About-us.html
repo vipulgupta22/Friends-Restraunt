@@ -16,7 +16,6 @@
     
 </head>
 <body>
-    <div class="header">
     <nav class="navbar">
         <div class="nav">
             <ul>
@@ -34,9 +33,10 @@
             </ul> 
         </div>
     </nav>
-<br>
-<br>
-<br></div>
+
+<div class="header">
+    <div id="transbox"></div>
+</div>
     <h1 id="abt-head" >About-Us</h1>
     <div class="about">
           <div class="abt-cont">
@@ -98,7 +98,7 @@
   <a class="next" onclick="plusteam(1)">&#10095;</a>
     </div>
     <h1 id="abt-head" >Management</h1>
-    <div class="box">
+    <!-- <div class="box">
     <div class="mgmt">
         <div class="cir" id="c1">
             <div class="info">
@@ -159,13 +159,92 @@
         </div>
         </div>
     </div>
-</div>
-
+</div> -->
+<div class="container">
     
-    <footer>
-        <div id="footerbox">
+    <div class="card">
+        <div class="content">
+            <div class="imgbox"><img src="../Images/arvind.jpeg" alt=""></div>
+            <div class="contentbox">
+                <h3>Arvind Jaiswal <br><span>Web Programmer | Design Thinker</span></h3>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="imgbox"><img src="../Images/satyam.jpg" alt=""></div>
+            <div class="contentbox">
+                <h3>Satyam Singh <br><span>Web Programmer | Design Thinker</span></h3>
+            </div>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="https://www.linkedin.com/in/vipul-gup-2204/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/vipulgupta22/" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/its_vipul.gupta/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="imgbox"><img src="../Images/vipul.jpg" alt=""></div>
+            <div class="contentbox">
+                <h3>Vipul <br><span>Web Programmer | Design Thinker</span></h3>
+            </div>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="https://www.linkedin.com/in/vipul-gup-2204/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/vipulgupta22/" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/its_vipul.gupta/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="imgbox"><img src="../Images/ups.jpg" alt=""></div>
+            <div class="contentbox">
+                <h3>Umesh Pratap Singh <br><span>Java Programmer | web Programmer</span></h3>
+            </div>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="https://www.linkedin.com/in/umesh-pratap-singh-956348140/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/thakurups/" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/_u._p._s._/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<footer>
+    <div id="footerbox">
+        <div id="transbox">
             <div class="logo">
-                <h1><a href="/Friends-Restraunt/Html/home.html"><span id="lo">Friends</span><span id="and"> & </span><span id="lo">Family</span></a></h1>
+                <h1><span id="logo111">Friends</span> & <span id="logo111">Family</span></h1>
             </div>
             <div id="box2foot">
                 <div id="box111">
@@ -205,14 +284,34 @@
                         </div>
                     </div>
                 </div>
+                <div id="box333">
+                    <h2>Contact Us</h2>
+                    <form action="#">
+                        <div>
+                            <label for="email1">Email</label>
+                            <input type="email" id="email1" placeholder="user123@mail.com">
+                        </div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="John khan">
+                        </div>
+                        <div>
+                            <label for="Query">Query</label>
+                            <textarea name="msg" id="Query" cols="30" rows="10" placeholder="Write Your Query..."></textarea>
+                        </div>
+                        <div>
+                            <a href="mailto:f&f@gmail.com"><button type="submit">Sumbit</button></a>
+                        </div>
+                    </form>
+                </div>
             </div>
             <section class="footer-content">
                 <p>
-                  CopyRight Reserved by <span>friends & family</span> <i class="fas fa-copyright"></i> 2021
+                CopyRight Reserved by <span>friends & family</span> <i class="fas fa-copyright"></i> 2021
                 </p>
-              </section>
+            </section>
         </div>
-    </footer>
-    <script src="/Friends-Restraunt/Js/About-us.js"></script>
+    </div>
+</footer><script src="/Friends-Restraunt/Js/About-us.js"></script>
 </body>
 </html>

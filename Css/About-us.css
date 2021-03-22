@@ -3,6 +3,9 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
     }
+    .navbar{
+        position: relative;
+    }
 .header{
     /* border: solid red; */
     height: 70vh;
@@ -10,6 +13,13 @@
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;  
+}
+
+#transbox{
+    background-color:black;
+    opacity: 0.95;
+    height: calc(70vh-80px);
+    width: 100%;
 }
 .about{
     height: 65vh;
@@ -107,92 +117,7 @@
     background-image: url(../Images/chef-7.jfif);
     background-size: cover;
 }
-.box{
-    background-image: url(../Images/background-1.jfif);
 
-}
-.mgmt{
-    height: auto;
-    /* border: solid pink;     */
-     display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-.cir{
-    /* border: solid black; */
-    height: 290px;
-    width: 290px;
-    border-radius: 50%;
-    margin-left: 30px;
-    float: left;
-    box-shadow:  8px 8px 8px rgb(190, 71, 31);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.name h1{
-    font-size: 30px;
-    font-style:italic;
-    font-family:'Comic Neue';
-    color: white;
-    background-color:  rgb(190, 71, 31);
-    border-radius: 8px;
-    text-align: center;
-}
-#social-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-#socialicon i{
-    font-size: 20px;
-    padding: 5px;
-    color: white;
-    background-color:  rgb(190, 71, 31);
-    border-radius: 8px;
-    
-}
-.info{
-    opacity: 0;
-    margin-top: 50%;
-}
-.cir:hover .info{
-    opacity: 1;
-}
-.cir:hover{
-    opacity: 0.7;
-}
-
-#c1{
-    background-image: url(../Images/satyam.jpg);
-    background-size: cover;
-}
-#c2{
-    background-image: url(../Images/vipul.jpg);
-    background-size: cover;
-}
-#c3{
-    background-image: url(../Images/ups.jpg);
-    background-size: cover;
-}
-#c4{
-    background-image: url(../Images/arvind.jpeg);
-    background-size: cover;
-}
-
-
-
-.box{
-    height: 60vh;
-    /* border: solid violet;      */
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
-}
-/*  */
-/*  */
 
 slideshow-container {
   position: relative;
@@ -294,4 +219,111 @@ slideshow-container {
   /* On hover, add a black background color with a little bit see-through */
   .prev1:hover, .next1:hover {
     background-color: rgba(0,0,0,0.8);
+  }
+
+
+  section{
+      background: #161623;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 15px;
+  }
+
+
+  /* management */
+  .container{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px 0 0 0;
+      margin-top: 0;
+      height:auto;
+  }
+
+  .container .card{
+      position:relative;
+      width: 300px;
+      height: 400px;
+      background: rgba(255,255,255,0.05);
+      margin: 20px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0,0.02);
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .container .card .content{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      opacity: 0.9;
+      transition: 0.5%;
+      transform: translateY(-20px);
+  }
+  .container .card:hover .content{
+      opacity: 1;
+      
+  }
+  .container .card .content .imgbox{
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 10px solid rgba(0, 0, 0, 0.25);
+  }
+  .container .card .content .imgbox img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  .container .card .content .contentbox h3{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      margin: 20px 0 10px;
+      line-height: 1.1em;
+  }
+  .container .card .content .contentbox h3 span{
+      font-size: 12px;
+      font-weight: 300;
+      text-transform: initial;
+  }
+  .container .card .sci{
+      position: absolute;
+      bottom: 50px;
+      display: flex;
+  }
+  .container .card .sci li{
+      list-style: none;
+      margin:0 10px;
+      transition: 0.5s;
+      opacity: 0.9; 
+  }
+  .container .card:hover .sci li{
+      opacity: 1;
+  }
+  .container .card .sci li a{
+      color: #fff;
+      font-size: 24px;
+  }
+ .container .card{
+      background-color: rgb(31, 29, 29);
+      box-shadow:8px 8px 8px rgb(190, 71, 31) ;
+      
+    }
+  .container{
+      background-image: url(../Images/background-1.jfif);
+  }
+  .container .card:hover{
+      transform: scale(1.05);
   }
