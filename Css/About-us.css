@@ -70,51 +70,60 @@
         background-color: white;
     }
 .teamcontainer{
-    height: 40vh;
-    /* border: solid yellowgreen; */
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-image: url(../Images/background-1.jfif);
     
 }
-.member{
-    border: solid yellow;
-    border-radius: 20px;
-    height: 98%;
-    width: 20%;
-    box-shadow: 8px 8px 8px rgb(190, 71, 31);
-}
 #m1{
-    background-image: url(../Images/chef-1.jfif);
+    background-image: url(../Images/pexels-taryn-elliott-4457124.jpg);
     background-size: cover;
 }
 #m2{
-    background-image: url(../Images/chef-2.jpg);
+    background-image: url(../Images/pexels-cottonbro-4253302.jpg);
     background-size: cover;
 }
 #m3{
-    background-image: url(../Images/chef-1-anime.jpg);
+    background-image: url(../Images/pexels-cottonbro-3338675.jpg);
     background-size: cover;
 }
 #m4{
-    background-image: url(../Images/chef-3.gif);
+    background-image: url(../Images/pexels-miquel-ferran-gomez-figueroa-3814446.jpg);
     background-size: cover;
 }
 #m5{
-    background-image: url(../Images/chef-6.jfif);
+    background-image: url(../Images/pexels-sides-imagery-3351927.jpg);
     background-size: cover;
 }
 #m6{
-    background-image: url(../Images/chef-6.jfif);
+    background-image: url(../Images/pexels-tirachard-kumtanom-887827.jpg);
     background-size: cover;
 }
 #m7{
-    background-image: url(../Images/chef-7.jfif);
+    background-image: url(../Images/pexels-cottonbro-4252137.jpg);
     background-size: cover;
 }
 #m8{
-    background-image: url(../Images/chef-7.jfif);
+    background-image: url(../Images/pexels-andrea-piacquadio-3771120.jpg);
+    background-size: cover;
+}
+#m9{
+    background-image: url(../Images/pexels-gustavo-fring-3983699.jpg);
+    background-size: cover;
+}
+#m10{
+    background-image: url(../Images/pexels-tim-douglas-6210788.jpg);
+    background-size: cover;
+}
+#m11{
+    background-image: url(../Images/pexels-cottonbro-7221103.jpg);
+    background-size: cover;
+}
+#m12{
+    background-image: url(../Images/pexels-andrea-piacquadio-3785708.jpg);
     background-size: cover;
 }
 
@@ -157,6 +166,13 @@ slideshow-container {
   .team {
       
     /* border: solid gray; */
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
     width: 85%;
     height: 80%;
     display: none;
@@ -191,12 +207,17 @@ slideshow-container {
   }
 
 
+
+  .about {
+    position: relative;
+    margin: auto;
+  }
   /*  */
   .prev1, .next1 {
     background-color:whitesmoke;
     cursor: pointer;
-     position: absolute; 
-    top: 115%;
+    position: absolute; 
+    top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -326,4 +347,58 @@ slideshow-container {
   }
   .container .card:hover{
       transform: scale(1.05);
+  }
+
+
+
+  /* our team */
+
+  .card-container {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 12px;
+    perspective: 900px;
+    text-align: center;
+}
+.card1 {
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+}
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    backface-visibility: hidden;
+  }
+  .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: black;
+    opacity: 0.8;
+  }
+  
+  .card-container:hover .card1 {
+    transform: rotateY(180deg);
+  }
+  .back {
+    transform: rotateY(180deg);
   }

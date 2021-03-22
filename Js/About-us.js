@@ -83,6 +83,6 @@ function showSlider2() {
   if (slideIndex1 > slides.length) {slideIndex1 = 1}    
 
   slides[slideIndex1-1].style= "display: flex;flex-direction: row;    justify-content: space-evenly;    align-items: center;";
-  setTimeout(showSlider2, 5000); // Change image every 2 seconds
+  setTimeout(showSlider2, 7000); // Change image every 2 seconds
 }
 
