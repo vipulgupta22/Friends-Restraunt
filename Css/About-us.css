@@ -9,7 +9,7 @@
 .header{
     /* border: solid red; */
     height: 70vh;
-    background-image: url(../Images/about-background.webp);
+    background-image: url(../Images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;  
@@ -21,6 +21,28 @@
     height: calc(70vh-80px);
     width: 100%;
 }
+#abt-head{
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 2vh;
+  background-image: url(../Images/background-1.jfif);
+  background-size: cover;  
+  font-family: 'Fredoka One', cursive;
+}
+#abt-head1{
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2vh;
+    font-family: 'Fredoka One', cursive;
+
+} 
+.mySlides p{
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+}
+
 .about{
     height: 65vh;
     /* border: solid beige; */
@@ -31,43 +53,33 @@
     align-items: center;
     background-image: url(../Images/background-1.jfif);
     }
-#abt-head{
-    padding-top: 5vh;
-    text-align: center;
-    font-size: 50px;
-    padding-bottom: 2vh;
-  background-image: url(../Images/heading-about.jfif);
-  background-size: cover;  
-  font-family: 'Comic Neue', cursive;
-}
-#abt-head1{
-    margin-top: 8vh;
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 2vh;
-  
-    font-family: 'Comic Neue', cursive;
-
-} 
 
     .abt-cont{
         height: 85%;
         margin: auto;
         width: 85%;
-        opacity: 0.9;
+        border: 1px solid gray;
+        box-shadow: 10px 10px 10px gray ;
+        background-image: url(../Images/sean-benesh-Pod30xdRkUg-unsplash.jpg);
+        background-size: cover;
+        
+        
+    }
+    .abt1{
+        background-color:black;
+        opacity: 0.7;
+        height: 100%;
+        width: 100%;
+        
         display: flex;
         justify-content: center;
         align-items:center;
-        border: 1px solid gray;
-        box-shadow: 10px 10px 10px gray ;
-        background-color: white;
-        
     }
     .cont{
         width: 70%;
         height: auto;
         margin: auto;
-        background-color: white;
+        color: white;
     }
 .teamcontainer{
     height: auto;
@@ -367,7 +379,9 @@ slideshow-container {
   width: 250px;
   height: 250px;
   transition: all 0.6s ease;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d;  
+  box-shadow:8px 8px 8px rgb(190, 71, 31) ;
+      
 }
 .front, .back {
     position: absolute;
@@ -402,3 +416,12 @@ slideshow-container {
   .back {
     transform: rotateY(180deg);
   }
+
+
+
+@media(max-width:1080px){
+    .about{
+        height: auto;
+    }
+}
+  
