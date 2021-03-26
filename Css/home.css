@@ -40,12 +40,12 @@
     display: inline-block;
     padding: 10px 30px;
     color: #fff;
-    background-color: #ff6f3c;
-    border: none;
+    /* background-color: #ff6f3c; */
+    border: 1px solid #ff6f3c;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 3px 3px 2px  #8a3f24;
+    box-shadow: 2px 2px 1px  #8a3f24;
 }
 
 .btn:hover{
@@ -110,15 +110,15 @@
 }
 .special ,
 .offers{
-    border: 2px solid #8a3f24;
-    background: #ff6f3c;
-    width: 400px;
+    border: 1px solid #ff6f3c;
+    /* background: #ff6f3c; */
+    width: 200px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 1px 2px 1px #8a3f24 ;
+    box-shadow: 1px 2px 2px #8a3f24 ;
 
 }
 .special a ,
@@ -192,3 +192,94 @@
     border-radius: 2px;
     box-shadow: -70px -30px rgb(236, 236, 236);
 }
+
+/* MenuShowcase */
+.section{
+    margin-top: 80px;
+    background-color: #ffff;
+    height: 1000px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuhead{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+.menuhead h1{
+    font-size: 30px;
+}
+.menutext{
+    max-width: 700px;
+    text-align: center;
+}
+/* menunavbar */
+.col{
+ margin-top: 20px;
+}
+.menu_nav ul{
+    display: flex;
+    list-style: none;
+}
+.menu_nav ul li a{
+    color: rgb(64, 62, 62);
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    margin: 5px;
+    /* border-bottom: 2px solid #ff6f3c; */
+}
+.menu_nav ul li a:hover{
+    color: black;
+}
+
+.mains{
+    margin-top: 30px;
+}
+.col_1{ 
+    display: flex;
+    /* width: 800px; */
+    margin: 5px;
+    /* box-shadow: 2px 2px 10px 1px #ccc; */
+
+}
+.row_1{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgb(228, 227, 227);
+    width:500px ;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin: 5px;
+    /* box-shadow: 2px 2px 10px 1px #ccc; */
+
+}
+.Item_imges{
+    /* padding: 10px; */
+}
+.Item_discription{
+    /* padding: 10px; */
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Item_discription h4{
+    padding-top: 10px;
+}
+.Item__price{
+    padding: 20px;
+}
+
+

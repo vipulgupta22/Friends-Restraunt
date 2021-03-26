@@ -7,7 +7,7 @@
     align-items: center;
     background:#333;
     opacity: 0.8;
-    position:fixed;
+    position:absolute;
     width: 100%;  
 }
 .navbar.top{
