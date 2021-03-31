@@ -131,8 +131,9 @@
   color: black;
   border-radius: 20px;
   border: 2px solid #ff6f3c;
-  width: 100px;
+  width: 130px;
   height: 40px;
+  padding: 5px;
   margin-top: 10px;
   text-decoration: none;
   background-color: white;
