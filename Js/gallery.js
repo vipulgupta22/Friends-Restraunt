@@ -10,5 +10,5 @@ function enlarge(idx){
 function cancel(idr){
     document.getElementById("small-box").style.display="flex";
     document.getElementById(idr).style.display="none";
-
+// fnfn
 }

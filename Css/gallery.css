@@ -25,7 +25,6 @@ justify-content: center;
 #small-box{
     height: auto;
     width: auto;
-    border: solid brown;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
