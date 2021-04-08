@@ -105,7 +105,7 @@
     justify-content: space-evenly;
     align-items: center;
     /* border: 2px solid white; */
-    margin-top:210px ;
+    margin-top:200px ;
     height: 80px;
 }
 .special ,
@@ -143,6 +143,7 @@
 #main{
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid rgb(231, 228, 228);
 }
 .box {
     margin:30px 0;
@@ -152,7 +153,7 @@
     align-items: center;
     width: 80%;
     /* border: 1px solid gray; */
-    box-shadow: 2px 2px 10px 1px #ccc;
+    /* box-shadow: 2px 2px 10px 1px #ccc; */
 }
 
 .box .box-1{
@@ -195,9 +196,11 @@
 
 /* MenuShowcase */
 .section{
-    margin-top: 80px;
+    margin-top: 50px;
     background-color: #ffff;
-    height: 1000px;
+    height: 800px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+
 }
 .container{
     display: flex;
@@ -248,38 +251,228 @@
 .col_1{ 
     display: flex;
     /* width: 800px; */
-    margin: 5px;
+    /* margin: 5px; */
     /* box-shadow: 2px 2px 10px 1px #ccc; */
 
 }
 .row_1{
     /* border: 1px solid black; */
     border-bottom: 1px solid rgb(228, 227, 227);
-    width:500px ;
-    height: 150px;
+    width:550px ;
+    height: 130px;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     /* text-align: center; */
     /* align-items: center; */
-    margin: 5px;
+    margin: 10px;
     /* box-shadow: 2px 2px 10px 1px #ccc; */
 
 }
-.Item_imges{
-    /* padding: 10px; */
+.Item_images{
+    /* margin-top: 10px; */
+
 }
 .Item_discription{
-    /* padding: 10px; */
+    padding-right: 50px;
+    padding-left: 20px;
     line-height: 2em;
+    color: rgb(54, 53, 53);
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .Item_discription h4{
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    /* text-align: center; */
+    align-items: center;
+    color: rgb(81, 79, 79);
 }
 .Item__price{
-    padding: 20px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
-
+.feature_dishes{
+    padding: 30px 0;
+    /* background-color: rgb(204, 201, 201); */
+}
+.gall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 2em;
+}
+.gall h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.dishrow > .dishcolumn {
+    padding: 0 8px;
+  }
+  .dishrow{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 50px 100px;
+  }
+  .dishrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .centercol{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .dishcolumn {
+    float: left;
+    /* width: 25%; */
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 800px;
+    max-width: 800px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dishname{
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom:0;  
+  }
+  .dishprice{
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom:8px;
+    right: 8px;
+  }
+  .bottom-left{
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom:0;
+  }
+  .centered {
+    color: #f2f2f2;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
