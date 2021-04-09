@@ -219,7 +219,13 @@
     line-height: 2;
 }
 .menuhead h1{
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    color: #151515;
     font-size: 30px;
+}
+.menuhead p{
+    color: rgb(145, 140, 140);
 }
 .menutext{
     max-width: 700px;
@@ -302,10 +308,17 @@
     align-items: center;
     text-align: center;
     line-height: 2em;
+    
 }
 .gall h1{
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    color: #151515;
     font-size: 30px;
     margin-top: 20px;
+}
+.gall p{
+    color: rgb(147, 142, 142);
 }
 .dishrow > .dishcolumn {
     padding: 0 8px;
@@ -418,14 +431,14 @@
     position: absolute;
     top: 0;
   }
-  .dishname{
+  .dishrow.dishcolumn .dishname{
     color: #f2f2f2;
     font-size: 25px;
     padding: 8px 12px;
-    position: absolute;
+    position:absolute;
     bottom:0;  
   }
-  .dishprice{
+  .dishrow.dishcolumn .dishprice{
     color: #f2f2f2;
     font-size: 25px;
     padding: 8px 12px;
@@ -476,3 +489,171 @@
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  .newsletter{
+      /* border: 1px solid gray; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 400px;
+      max-width: 100%;
+      background-color: #f0f0f0;
+  }
+  .newsletter-head{
+    font-family: Lato,sans-serif;
+    font-size: 1rem;
+      line-height: 1.5em;
+      max-width: 800px;
+  }
+  .newsletter-head h4{
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    color: #151515;
+    font-size: 30px;
+  }
+  .newsletter-head p{
+    margin: 30px 0;
+    color: rgb(165, 160, 160);
+  }
+  input{
+      height: 50px;
+      width: 500px;
+      padding: 0 20px;
+      margin-right: 20px;
+      font-size: 1rem;
+      border: 1px solid #ff6f3c;
+  }
+  button{
+      height: 52px;
+      width: 200px;
+      border: 1px solid #ff6f3c;
+      font-size: 1rem;
+  }
+  button:hover{
+      color: #ff6f3c;
+      background-color:#f0f0f0;
+      cursor: pointer;
+  }
+
+
+
+  .client{
+      height: 500px;
+      background-color: white;
+  }
+  .client-head{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  .client-head h4{
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    color: #151515;
+    font-size: 30px;
+      margin-top: 100px;
+      margin-bottom: 20px;
+  }
+  .client-head p{
+      color: darkgray;
+  }
+ .explain{
+     width: 60%;
+     margin: 20px;
+ }
+ .explain p{
+     color: rgb(103, 94, 94);
+     font-family: Playfair Display,serif;
+ }
+ .explain h4{
+     color:#151515 ;
+     font-family: Playfair Display,serif;
+
+ }
+ .clientsays{
+     display: flex;
+     justify-content: space-between;
+ }
+ .clientsays img{
+     border-radius: 50%;
+     margin: 10px;
+ }
+ .clientsays p{
+     line-height: 1.2em;
+     max-width: 80%;
+     margin: 20px;
+
+ }
+ .clientsays h4{
+     margin-top: 20px;
+     margin: 20px;
+ }
+  .aboutcontainer {
+    width: 70%;
+    margin:20px auto;
+  }
+  .carousel {
+    
+    /* border: 2px solid #416be4;
+    border-radius: 50%; */
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1); */
+  }
+  .slider {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+  .slider section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+  }
+  .left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .arrow i {
+    font-size: 70px;
+    -webkit-user-select: none;
+    color: #416be4;
+  }
+  .left {
+    left: 10px;
+  }
+  .right {
+    right: 10px;
+  }
+  .control ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  .control ul li {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .control ul li.selected {
+    background: transparent;
+  }
+  
