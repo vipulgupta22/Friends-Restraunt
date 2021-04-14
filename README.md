@@ -1,5 +1,4 @@
-# Friends-Restraunt
-<img src="Logos/IMG-20210213-WA0004.jpg" style="margin:auto">
+# Friends & Family Restraunt
 ### In this we are making a webapp in which the user can see the restraunt menu and order food online.
 https://vipulgupta22.github.io/Friends-Restraunt/.
 
