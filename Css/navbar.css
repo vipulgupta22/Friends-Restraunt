@@ -1,4 +1,6 @@
-
+.menu-wrap{
+    display: none;
+}
 .navbar{
     display: flex;
     flex-direction: row;
