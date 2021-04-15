@@ -39,7 +39,11 @@
 
 
 /* testimonial */
-.testimonial{
-    height: 45vh;
-    border: solid grey;
+.vid{
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
 }
