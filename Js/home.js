@@ -66,6 +66,13 @@ function openModal() {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className.add(" active");
+    dots[slideIndex-1].classN.add(" active");
     captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+
+  // hamburger
+  function onClickMenu(){
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
   }
