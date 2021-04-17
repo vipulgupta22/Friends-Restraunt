@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 300px;
+    padding-bottom: 35px;
 }
 
 #hero .content h1{
@@ -579,6 +580,7 @@
  }
  .clientsays{
      display: flex;
+     flex-direction: row;
      justify-content: space-between;
      width: auto;
      border: 4px solid red;
@@ -624,7 +626,7 @@
   }
   .slider {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
     width:100%;
   }
@@ -662,58 +664,8 @@
     padding: 0;
     transform: translate(-50%);
   }
-  .control ul li {
-    width: 10px;
-    height: 10px;
-    background: #333;
-    border: 2px solid #333;
-    border-radius: 50px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  .control ul li.selected {
-    background: transparent;
-  }
-  
-   /* .slider {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-  }
-  .slider section {
-    flex-basis: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 20px;
-  }/* 
-  .left, .right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
-  .arrow i {
-    font-size: 70px;
-    -webkit-user-select: none;
-    color: #416be4;
-  }
-  .left {
-    left: 10px;
-  }
-  .right {
-    right: 10px;
-  }
-  .control ul {
-    list-style: none;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin: 0;
-    padding: 0;
-    transform: translate(-50%);
+  .selected{
+    
   }
   .control ul li {
     width: 10px;
@@ -727,7 +679,6 @@
   .control ul li.selected {
     background: transparent;
   }
-   */
 
   /* Mobile */
   @media(max-width:768px){

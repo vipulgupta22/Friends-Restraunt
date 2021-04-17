@@ -18,6 +18,7 @@ indicators.forEach((indicator, i) => {
 });
 
 left.addEventListener('click', function() {
+  console.log("Clicked");
   index = (index > 0) ? index -1 : 0;
   document.querySelector('.control .selected').classList.remove('selected');
   indicatorParent.children[index].classList.add('selected');
@@ -65,6 +66,6 @@ function openModal() {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].className.add(" active");
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
