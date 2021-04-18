@@ -16,7 +16,7 @@
     z-index: 10;
 }
 #hero{
-    background-image: url('/Friends-Restraunt/Images/showcase.jpg');
+    background-image: url('../Images/showcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -546,8 +546,25 @@
   }
 
 
-
-  .client{
+/* Slider */
+/* 
+.client-head{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.client-head h4{
+font-family: Playfair Display,serif;
+font-weight: 400;
+color: #151515;
+font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.client-head p{
+  color: darkgray;
+} */
+  /* .client{
       height: 500px;
       background-color: white;
   }
@@ -683,7 +700,7 @@
   }
   .control ul li.selected {
     background: transparent;
-  }
+  } */
 
   /* Mobile */
   @media(max-width:768px){
