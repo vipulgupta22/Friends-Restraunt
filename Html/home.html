@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a740978d7b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Css/Footer.css">
     <link rel="stylesheet" href="../Css/navbar.css">
     <link rel="stylesheet" href="../Css/home.css">
-    <title>Home</title>
+    <!-- <title>Home</title>
+    <link rel="stylesheet" href="../Css/About-us.css"> -->
 </head>
 <body>
-    <header class="hero">
+    <div class="topnav">
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi nemo beatae aperiam voluptatibus magni itaque architecto Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, hic.</h5>
+        <a href="../Html/login.html">Login/SignUp</a>
+    </div>
+    <!-- <div class="logo"><h1><a href="#"><span id="lo">Friends</span><span id="and"> & </span><span id="lo">Family</span></a></h1> -->
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div> 
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="../Html/login.html">Login/SignUp</a></li>
+            <li><a href="../Html/About-us.html">About-us</a></li>
+            <li><a href="../Html/Menu.html">Menu</a></li>
+            <li><a href="../Html/gallery.html">Gallery</a></li>
+            <li><a href="../Html/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <header id="hero">
             <nav class="navbar top">
                 <div class="nav">
                     <ul>
@@ -52,24 +74,292 @@
                     </div>
                 </div>
     </header>
-    <main id="main">
-        <div class="box">
-                <div class="box-1">
-                    <img src="/Friends-Restraunt/Images/box-1.jpg" alt="">
-                    <div class="para">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quasi, obcaecati quod esse, labore quidem cupiditate eum nulla totam architecto repudiandae provident, illum quae ad fugit aliquam minus dignissimos explicabo dolorum alias voluptatem quos. Vero ullam iusto quos blanditiis delectus et quisquam minima voluptas incidunt adipisci nam reiciendis recusandae eaque mollitia, fugit quas temporibus eos ratione consequatur necessitatibus voluptatem labore. Odit, quo quae? Maiores iusto sed, aliquam dicta ex accusantium nulla esse accusamus ducimus voluptate sunt sequi nesciunt, facilis corrupti iure sapiente nemo consequatur aperiam ipsam unde nobis. Modi placeat blanditiis ea, ex porro saepe nam magni alias debitis vitae!</p>
+    <main>
+        <section id="main">
+            <div class="box">
+                    <div class="box-1">
+                        <div class="boximg">
+                        <img src="/Friends-Restraunt/Images/box-1.jpg" alt=""></div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo blanditiis unde! Soluta ex obcaecati repudiandae perspiciatis optio voluptatum mollitia ea dicta debitis eius. Culpa, cumque nihil. Molestias eaque mollitia accusamus quis exercitationem quod eveniet reprehenderit, tenetur doloribus, expedita assumenda repellendus dolor? Est repudiandae, eum nesciunt delectus aperiam at debitis.</p>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="boximg">
+                        <img src="/Friends-Restraunt/Images/box-1.jpg" alt="">
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto voluptatum debitis facilis eum aspernatur eius. Cupiditate nisi accusamus reiciendis id ad aliquam, alias non error illo voluptates? Doloribus, facere id natus adipisci, eius saepe molestiae maiores dolorum delectus quo, ipsa quam perspiciatis? Ab delectus tenetur atque, amet exercitationem non mollitia velit doloremque, tempora autem consequatur consectetur iste distinctio quis magnam.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row1">
+                    <div class="menuhead">
+                        <h1>Our Menu</h1>
+                        <p class="menutext">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque est numquam ducimus quis ab accusantium neque magnam iste, totam rerum.
+                        </p>
                     </div>
                 </div>
-                <div class="box-2">
-                    <img src="/Friends-Restraunt/Images/box-1.jpg" alt="">
-                    <div class="para">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto voluptatum debitis facilis eum aspernatur eius. Cupiditate nisi accusamus reiciendis id ad aliquam, alias non error illo voluptates? Doloribus, facere id natus adipisci, eius saepe molestiae maiores dolorum delectus quo, ipsa quam perspiciatis? Ab delectus tenetur atque, amet exercitationem non mollitia velit doloremque, tempora autem consequatur consectetur iste distinctio quis magnam.</p>
+                <div class="row2">
+                    <div class="col">
+                        <nav class="menu_nav">
+                            <ul>
+                                <li class="active">
+                                    <a href="#menu_images" data-filter=".mains">Mains</a>
+                                </li>
+                                <li class="">
+                                    <a href="#menu_images" data-filter=".lunch">Lunch</a>
+                                </li>
+                                <li class="">
+                                    <a href="#menu_images" data-filter=".dinner">Dinner</a>
+                                </li>
+                                <li class="">
+                                    <a href="#menu_images" data-filter=".drinks">Drinks</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-        </div>
-    </main>
-    <!-- footer -->
-    
+                <div class="mains">
+                    <div class="col_1">
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_1">
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_1">
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                        <div class="row_1">
+                            <div class="Item_images">
+                                <img src="../Images/food.jpg" alt="..." height="120px" width="120px">
+                            </div>
+                            <div class="Item_discription">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="Item__price">
+                                $15
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- featured dishes -->
+        <section class="feature_dishes">
+            <div class="gall">
+                <h1>Featured dishes</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, laudantium.</p>
+            </div>
+            <div class="dishrow">
+                
+                    <div class="dishcolumn">
+                    <img src="../Images/dish_2.jpg" height="250px" width="350px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    <div class="dishname">Lorem ipsum dolor.</div>
+                    </div>
+                    <div class="dishcolumn">
+                    <img src="../Images/dish_3.jpg" height="250px" width="350px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    <div class="dishname">Lorem ipsum dolor.</div>
+                    </div>
+                    <div class="dishcolumn">
+                    <img src="../Images/dish_4.jpg" height="250px" width="350px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    <div class="dishname">Lorem ipsum dolor.</div>
+                    </div>
+                    <div class="dishcolumn">
+                    <img src="../Images/dish_5.jpg" height="250px" width="350px"onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                    <div class="dishname">Lorem ipsum dolor.</div>
+                    </div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <!-- <div class="centered">Centered</div> -->
+                    <img src="../Images/dish_2.jpg"  height="500px" width="800px"  alt="Paw Bhaji" style="opacity: 0.9;" >
+                    <div class="centered"> <b>Paw Bhaji</b></div>
+                    <div class="bottom-left">Rs.50</div>
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <!-- <div class="centered">Centered</div> -->
+                    <img src="../Images/dish_3.jpg"  height="500px" width="800px" alt="Chilli Paneer"style="opacity: 0.9;">
+                    <div class="centered"><b>Paw Bhaji</b></div>
+                    <div class="bottom-left">Rs.50</div>
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <!-- <div class="centered">Centered</div> -->
+                    <img src="../Images/dish_4.jpg" height="500px" width="800px"alt="pakode" style="opacity: 0.9;" >
+                    <div class="centered"><b>Paw Bhaji</b></div>
+                    <div class="bottom-left">Rs.50</div>
+                </div>
+                
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <!-- <div class="centered">Centered</div> -->
+                    <img src="../Images/dish_5.jpg"  height="500px" width="800px" alt="Egg" style="opacity: 0.9;">
+                    <div class="centered"><b>Paw Bhaji</b></div>
+                    <div class="bottom-left">Rs.50</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                </div>
+        </section>
+        <section class="newsletter">
+            <div class="newsletter-head">
+                <h4>Newsletter</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae enim, quae voluptas dolorum eligendi excepturi labore libero odit optio saepe!</p>
+            </div>
+            <form action="">
+                <label for="mce-EMAIL" class="sr-only">E-mail address</label>
+                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email address">
+                <button>Subscribe</button>
+            </form>
+        </section>
+        <section class="client">
+            <div class="client-head">
+                <h4>What clients say about us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae enim</p>
+            </div>
+            <div class="aboutcontainer">
+                <div class="carousel">
+                  <div class="slider">
+                    <section class="clientsays">
+                      <div class="clientimg">
+                      <img src="../Images/client 1.jpg" height="200px" width="200px" >
+                    </div>                         
+                      <div class="explain">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, modi necessitatibus hic at tempore repellat nesciunt distinctio recusandae, voluptates itaque ad odit omnis totam, est laudantium cupiditate illo saepe officiis reprehenderit veritatis incidunt earum. Ipsam minima nobis hic numquam odit!</p>
+                      <h4>Hunter</h4>
+                      </div>
+                    </section>
+                     <section class="clientsays">
+                        <div class="clientimg">
+                      <img src="../Images/cllient 2.jpg" height="200px" width="200px" >
+                            </div>                        
+                      <div class="explain">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, modi necessitatibus hic at tempore repellat nesciunt distinctio recusandae, voluptates itaque ad odit omnis totam, est laudantium cupiditate illo saepe officiis reprehenderit veritatis incidunt earum. Ipsam minima nobis hic numquam odit!</p>
+                      <h4>Hunter</h4>
+                      </div>
+                    </section>
+                    <section class="clientsays">
+                        <div class="clientimg">
+                      <img src="../Images/client 3.jpg" height="200px" width="200px" >
+                            </div>                        
+                      <div class="explain">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, modi necessitatibus hic at tempore repellat nesciunt distinctio recusandae, voluptates itaque ad odit omnis totam, est laudantium cupiditate illo saepe officiis reprehenderit veritatis incidunt earum. Ipsam minima nobis hic numquam odit!</p>
+                      <h4>Hunter</h4>
+                      </div>
+                    </section>
+                     <section class="clientsays">
+                        <div class="clientimg">
+                      <img src="../Images/client 4.jpg" height="200px" width="200px" >
+                           </div>                         
+                      <div class="explain">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, modi necessitatibus hic at tempore repellat nesciunt distinctio recusandae, voluptates itaque ad odit omnis totam, est laudantium cupiditate illo saepe officiis reprehenderit veritatis incidunt earum. Ipsam minima nobis hic numquam odit!</p>
+                      <h4>Hunter</h4>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="control">
+                    <span class="arrow left">
+                        <i class="material-icons" style="font-size:48px;color:black">keyboard_arrow_left</i>
+                    </span>
+                    <span class="arrow right">
+                        <i class="material-icons" style="font-size:48px;color:black">keyboard_arrow_right</i>
+                    </span>
+                    <ul>
+                      <li class="selected"></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </section>
+        </main>
     <footer>
         <div id="footerbox">
             <div id="transbox">
@@ -143,5 +433,6 @@
             </div>
         </div>
     </footer>
+        <script src="../js/home.js"></script>
 </body>
 </html>
