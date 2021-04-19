@@ -12,10 +12,7 @@
     position:absolute;
     width: 100%;  
 }
-.navbar.top{
-    /* background:transparent; */
-    z-index: -1;
-}
+
 .navbar *{
     z-index: 1;
 }

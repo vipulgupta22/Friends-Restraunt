@@ -223,6 +223,44 @@
   padding-right: 50px;
 }
 
+/* Special offers */
+#main2{
+  height: 400px;
+  background: #f0f0f0;
+}
+.special-offers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.offerhead h1{
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Playfair Display,serif;
+}
+.special-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.offercard{
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  /* border: 2px solid #ff6f3a; */
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #ff6f3a;
+}
+.offerimg img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 20px;
+}
 /* MenuShowcase */
 .section{
     margin-top: 30px;
