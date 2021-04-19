@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 300px;
-    padding-bottom: 35px;
+    padding-bottom: 80px;
 }
 
 #hero .content h1{
@@ -142,6 +142,9 @@
     justify-content: center;
     align-items: center;
 }
+.chv a i{
+  color: #ff6f3f;
+}
 
 .special:hover ,
 .offers:hover{
@@ -220,6 +223,51 @@
   padding-right: 50px;
 }
 
+/* Special offers */
+#main2{
+  height: 450px;
+  background: #f0f0f0;
+}
+.special-offers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.offerhead h1{
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Playfair Display,serif;
+}
+.special-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.offercard{
+  height: 320px;
+  width: 250px;
+  background-color: #fff;
+  /* border: 2px solid #ff6f3a; */
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #ff6f3a;
+}
+.offerimg img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.offercontent p{
+  padding-left:  20px;
+  padding-right: 20px;
+  padding-top:5px ;
+  color: rgb(42, 38, 38);
+  border-top: 1px solid #ff6f3a;
+}
 /* MenuShowcase */
 .section{
     margin-top: 30px;
@@ -310,7 +358,7 @@
     font-size: 20px;
 }
 
-.feature_dishes{
+#feature_dishes{
     padding: 30px 0;
     /* background-color: rgb(204, 201, 201); */
 }
