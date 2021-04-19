@@ -5,7 +5,7 @@
 
 /*  */
 .gallery-banner{
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url(../Images/ourgallery.jpg); 
     background-size: cover;
@@ -68,4 +68,31 @@
   #testnom{
       margin-top: 0;
       margin-bottom: 15px;
+  }
+
+  .logo h1 a:hover{
+    text-decoration: none;
+  }
+  .nav1 ul{
+    display: flex;
+  }
+  .nav1 ul li{
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: none;
+  }
+  .nav1 ul li a{
+    color: #ffff;
+    text-decoration: none;
+    /* font-size: 0px; */
+  }
+  .logo{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .navbar{
+    background:#333;
   }
