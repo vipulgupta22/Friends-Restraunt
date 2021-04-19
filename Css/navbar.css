@@ -8,12 +8,13 @@
     text-align: center;
     align-items: center;
     background:#333;
-    opacity: 0.8;
+    opacity: 1;
     position:absolute;
     width: 100%;  
 }
 .navbar.top{
-    background:transparent;
+    /* background:transparent; */
+    z-index: -1;
 }
 .navbar *{
     z-index: 1;
