@@ -55,14 +55,14 @@
     height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     background-color: #f77f54;
 }
 .topnav h5{
     color: #fff;
     font-family: Playfair Display,serif;
-    width: 80%;
+    width: 30%;
 }
 .topnav a{
     text-decoration: none;

@@ -188,15 +188,14 @@
   width: 50%;
 }
 .para{
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     margin: auto;
-    /* padding: 50px 80px; */
-    line-height: 1.5rem;
+    line-height: 2rem;
     width: 50%;
     padding-left: 50px;
     overflow: auto;
+    font-weight: 1.5em;
+    color: rgb(88, 82, 82);
 
 }
 .box-1 img
