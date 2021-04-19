@@ -225,7 +225,7 @@
 
 /* Special offers */
 #main2{
-  height: 400px;
+  height: 450px;
   background: #f0f0f0;
 }
 .special-offers{
@@ -248,7 +248,7 @@
   justify-content: space-evenly;
 }
 .offercard{
-  height: 250px;
+  height: 320px;
   width: 250px;
   background-color: #fff;
   /* border: 2px solid #ff6f3a; */
@@ -260,6 +260,13 @@
   width: 120px;
   border-radius: 50%;
   padding: 20px;
+}
+.offercontent p{
+  padding-left:  20px;
+  padding-right: 20px;
+  padding-top:5px ;
+  color: rgb(42, 38, 38);
+  border-top: 1px solid #ff6f3a;
 }
 /* MenuShowcase */
 .section{
